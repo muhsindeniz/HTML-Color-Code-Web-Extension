@@ -25,6 +25,7 @@ body {
   .panel-header {
     padding: 4px;
     color: #333;
+    display: none;
     margin: 0 -10px 10px;
     text-align: center;
   }
@@ -197,7 +198,7 @@ body {
   }
   
   .color-indicator {
-    display: inline-block;
+    display: none;
     vertical-align: middle;
     margin-right: 10px;
     width: 20px;

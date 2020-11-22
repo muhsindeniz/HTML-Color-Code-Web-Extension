@@ -1,10 +1,10 @@
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.container{
+.container {
     width: 390px;
     background-color: #fff;
 }
@@ -15,7 +15,7 @@ body{
     padding: 0;
 }
 
-.container ul li{
+.container ul li {
     width: 100%;
     display: block;
     border: solid 1px #fff;
@@ -25,17 +25,17 @@ body{
     align-items: center;
 }
 
-.container ul a{
+.container ul a {
     text-decoration: none;
     list-style-type: none;
     color: #333;
 }
 
-.container ul li:hover{
+.container ul li:hover {
     width: 100%;
     display: block;
     height: 35px;
-    background: linear-gradient(0deg, rgba(233,240,255,1) 0%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(233, 240, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
     display: flex;
     border: solid 1px #9bafd7;
     padding-left: 10px;
@@ -43,10 +43,77 @@ body{
     align-items: center;
 }
 
-section{
+section {
     border-top: solid 1px #e0e0e0;
 }
 
-.container ul li span{
+.container ul li span {
     margin-right: 8px;
+}
+
+.selectButton {
+    display: flex;
+    width: 50%;
+    margin-bottom: 8px;
+    float: left;
+    flex-direction: row;
+}
+
+.selectButton button {
+    width: 100%;
+    border: none;
+    margin-left: 5px;
+    outline: none;
+    height: 26px;
+    border-radius: 5px;
+}
+
+.selectButton button:hover {
+    background-color: rgb(201, 201, 201);
+    cursor: pointer;
+    transition: ease-out 0.3s all;
+}
+
+.about__contaniner {
+    width: 390px;
+}
+
+.about__header {
+    color: #fff;
+    background-color: #2c3e50;
+    width: 100%;
+    position: relative;
+    padding-top: 1px;
+    padding-bottom: 16px;
+    height: 32px;
+    text-align: center;
+}
+
+.about__grid {
+    display: flex;
+    width: 100%;
+}
+
+.about__grid .about__grid__title {
+    flex: 2;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    display: flex;
+    justify-content: flex-end;
+    padding: 6px;
+    align-items: center;
+}
+
+.about__grid .about__grid__content {
+    flex: 3;
+    color: #043d5e;
+    display: flex;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.about__grid .about__grid__content span{
+    font-weight: bold;
 }
